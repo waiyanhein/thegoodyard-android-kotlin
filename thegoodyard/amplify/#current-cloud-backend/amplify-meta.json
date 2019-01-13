@@ -1,0 +1,35 @@
+{
+	"providers": {
+		"awscloudformation": {
+			"AuthRoleName": "thegoodyard-20180928202610-authRole",
+			"UnauthRoleArn": "arn:aws:iam::206813362306:role/thegoodyard-20180928202610-unauthRole",
+			"AuthRoleArn": "arn:aws:iam::206813362306:role/thegoodyard-20180928202610-authRole",
+			"Region": "us-east-2",
+			"DeploymentBucketName": "thegoodyard-20180928202610-deployment",
+			"UnauthRoleName": "thegoodyard-20180928202610-unauthRole",
+			"StackName": "thegoodyard-20180928202610",
+			"StackId": "arn:aws:cloudformation:us-east-2:206813362306:stack/thegoodyard-20180928202610/5b215360-c354-11e8-89b8-020cf0d94894"
+		}
+	},
+	"auth": {
+		"cognito6e255b5a": {
+			"service": "Cognito",
+			"providerPlugin": "awscloudformation",
+			"providerMetadata": {
+				"s3TemplateURL": "https://s3.amazonaws.com/thegoodyard-20180928202610-deployment/amplify-cfn-templates/auth/cognito6e255b5a-cloudformation-template.yml",
+				"logicalId": "authcognito6e255b5a"
+			},
+			"lastPushTimeStamp": "2018-09-28T19:37:05.583Z",
+			"output": {
+				"AppClientSecret": "1gbubqj8co9am6onuftpg1g5g4q3gdg5ti4npic3mmgdsl59ju7b",
+				"UserPoolId": "us-east-2_FOtAIWEtQ",
+				"AppClientIDWeb": "5mnlke03223pcnq6mt81d894tk",
+				"AppClientID": "120nt6b61quatkdre4ojmogh65",
+				"IdentityPoolId": "us-east-2:120360c8-9bf2-403e-a5b8-ce5d3344bab4",
+				"IdentityPoolName": "cognito6e255b5a_identitypool_6e255b5a",
+				"UserPoolName": "cognito6e255b5a_userpool_6e255b5a"
+			},
+			"lastPushDirHash": "EUr/R9lFej92j28mQJI+vIijO58="
+		}
+	}
+}

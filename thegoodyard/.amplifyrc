@@ -1,0 +1,14 @@
+{
+    "providers": {
+        "awscloudformation": {
+            "AuthRoleName": "thegoodyard-20180928202610-authRole",
+            "UnauthRoleArn": "arn:aws:iam::206813362306:role/thegoodyard-20180928202610-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::206813362306:role/thegoodyard-20180928202610-authRole",
+            "Region": "us-east-2",
+            "DeploymentBucketName": "thegoodyard-20180928202610-deployment",
+            "UnauthRoleName": "thegoodyard-20180928202610-unauthRole",
+            "StackName": "thegoodyard-20180928202610",
+            "StackId": "arn:aws:cloudformation:us-east-2:206813362306:stack/thegoodyard-20180928202610/5b215360-c354-11e8-89b8-020cf0d94894"
+        }
+    }
+}

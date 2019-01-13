@@ -1,0 +1,51 @@
+{
+    "UserAgent": "MobileHub/1.0",
+    "Version": "1.0",
+    "CredentialsProvider": {
+        "CognitoIdentity": {
+            "Default": {
+                "PoolId": "us-east-1:f2d4353d-c684-4a6e-bc6a-c1c3e1cdbb06",
+                "Region": "us-east-1"
+            }
+        }
+    },
+    "IdentityManager": {
+        "Default": {}
+    },
+    "CognitoUserPool": {
+        "Default": {
+            "PoolId": "us-east-1_yEfqiVMWJ",
+            "AppClientId": "7l1ql4qt0pr56g7nmtqtf55l6o",
+            "AppClientSecret": "1d1b7sdb46ipu43ld021qpe7fd0t7rpdrm63bgm1l1uuemcu0otc",
+            "Region": "us-east-1"
+        }
+    },
+    "S3TransferUtility": {
+        "Default": {
+            "Bucket": "thegoodyardandroid-userfiles-mobilehub-330286608",
+            "Region": "us-east-1"
+        }
+    },
+    "DynamoDBObjectMapper": {
+        "Default": {
+            "Region": "us-east-1"
+        }
+    },
+    "PinpointAnalytics": {
+        "Default": {
+            "AppId": "0a02b472a9294848b23461adae8ab89c",
+            "Region": "us-east-1"
+        }
+    },
+    "PinpointTargeting": {
+        "Default": {
+            "Region": "us-east-1"
+        }
+    },
+    "UserFileManager": {
+        "Default": {
+            "Bucket": "thegoodyardandroid-userfiles-mobilehub-330286608",
+            "Region": "us-east-1"
+        }
+    }
+}
